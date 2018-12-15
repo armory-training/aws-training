@@ -12,7 +12,7 @@ pipeline {
   agent any
 
   stages {
-    stage("Push Image") {
+    stage("Do Work") {
       steps {
         sh '''
           echo hello
