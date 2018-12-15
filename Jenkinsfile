@@ -15,7 +15,7 @@ pipeline {
     stage("Push Image") {
       steps {
         sh '''
-          arm push
+          echo hello
         '''
       }
     }
